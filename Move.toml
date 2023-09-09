@@ -1,0 +1,18 @@
+[package]
+name = "friday"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyAddr = '9d3c951029c2100694952ad32fcfa17feb06362a325a311736aa58082ce55d8e'
+Std = "0x1"
+aptos_std = "0x1"
+[dev-addresses]
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
