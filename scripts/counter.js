@@ -10,6 +10,7 @@ const aptosCoin = "0x1::coin::CoinStore<0x1::aptos_coin::AptosCoin>";
 (async () => {
   const client = new aptos.AptosClient(NODE_URL);
   const faucetClient = new aptos.FaucetClient(NODE_URL, FAUCET_URL, null);
+  const tokenClient = new aptos.TokenClient(client);
   const privateKey = new aptos.HexString("0xcd11efd4a06aaabc56d7127d42784d9047e4e27283a2760c8e1e3618743aa956");
   const account1 = new aptos.AptosAccount(privateKey.toUint8Array());
 
