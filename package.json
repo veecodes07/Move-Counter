@@ -1,6 +1,21 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "aptos": "^1.19.0",
+=======
+    "aptos": "^1.19.0"
+  },
+  {
+  "main": "index.js",
+  "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+   
+>>>>>>> aaed0a65c1ed859e8b0d4a142307a6b9850cd077
     "dotenv": "^16.3.1"
   }
 }
